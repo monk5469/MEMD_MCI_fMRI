@@ -3,24 +3,24 @@ This software is for the paper [1], whose abstract is as follows.
 
 Mild cognitive impairment (MCI) is regarded as a brain disconnection syndrome. The functional connectivity from resting state functional magnetic resonance imaging (rs-fMRI) shows that the number and the strength of the connectivity in MCI will decrease. However, many studies have confirmed that, the decrease and increase in MCI actually coexist. This paper proposes a novel intrinsic-frequency connectivity to study the statistical significance between MCI and normal control (NC), especially stronger positive connectivity on an MCI group mean level. We use a multivariate empirical model decomposition to get intrinsic modal functions (IMFs) and calculate the correlations of the IMFs. In experiments, we use public data to test the proposed coefficient. When some dimension-reduction criteria are adopted, we can find some stronger intrinsic frequency correlation in MCI, which cannot be observed in traditional correlations. After further searched, the stronger connectivity is mainly distributed in the regions of MCI functional compensation and abnormal neuron recruitment hypothesis. From an intrinsic frequency spectrum, the reason for MCI's stronger positive intrinsic frequency correlation is that NC's correlation becomes smaller. One of explanations is that, the common respiration and cardiac noises in the intrinsic frequency correlation are removed, so that the positive correlation is weakened.
 
-This folder includes eight sun folders. 
+This folder includes eight sub-folders. 
 
 1. /data
 
-1.1 /data/ROI_data
+  1.1 /data/ROI_data
 
-This data is obtained by the following steps. 
+  This data is obtained by the following steps. 
 
-(1) Download NC data and MCI data from ADNI database, website: http://adni.loni.usc.edu/
-(2) Using AAL template to extract the ROI data of each subject, where the number of ROI is 116. The Details can be found in reference [1]. 
+  (1) Download NC data and MCI data from ADNI database, website: http://adni.loni.usc.edu/
+  (2) Using AAL template to extract the ROI data of each subject, where the number of ROI is 116. The Details can be found in reference [1]. 
 
-1.2 /data/MEMD_data
+  1.2 /data/MEMD_data
 
-This data is obtained by the following steps:
+  This data is obtained by the following steps:
 
-(1) Download NC data and MCI data from ADNI database, website: http://adni.loni.usc.edu/
-(2) Using AAL template to extract the ROI data of each subject, where the number of ROI is 116. The Details can be found in reference [1]. 
-(3) Each data is decomposed by MEMD to get the IMF component of each ROI. MEMD is written in Python language. The download address of the MEMD software package is https://github.com/mariogrune/MEMD-Python-
+  (1) Download NC data and MCI data from ADNI database, website: http://adni.loni.usc.edu/
+  (2) Using AAL template to extract the ROI data of each subject, where the number of ROI is 116. The Details can be found in reference [1]. 
+  (3) Each data is decomposed by MEMD to get the IMF component of each ROI. MEMD is written in Python language. The download address of the MEMD software package is https://github.com/mariogrune/MEMD-Python-
 
 2. /IFC_Dimension reduction
 
