@@ -1,0 +1,13 @@
+﻿edgenum_03_04.mat ：the number of the IMF connectivity on group means: MCI-NC >delta  & NC > 0, where delta = from 0.3  to 0.4.
+
+edgenum_0x.mat ：the number of the IMF connectivity on group means: MCI-NC >delta  & NC > 0, where delta = 0.x (x=3 32 34 36 38 4).
+
+CorrMeanImf_MCI.mat ：IMF connectivity mean of the MCI group
+
+CorrMeanImf_NC.mat ：IMF connectivity mean of the NC group
+  
+CorrMeanImf_MCI_cut_NC.mat ： IMF connectivity mean of the MCI group - IMF connectivity mean of the NC group
+
+MCI_NC_Q1_0.36.mat： the value of the IMF connectivity between ROIs, for  MCI(mean)-NC(mean) > 0.36 & NC > 0.
+
+netdata.mat ：116 ROI net 

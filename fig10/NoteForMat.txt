@@ -1,0 +1,7 @@
+﻿imf_MCI_19.mat： IMF ROI by MEMD of Subject No. 19 in the MCI group
+
+imf_NC_23.mat：IMF ROI by MEMD of Subject No. 23 in the NC group
+
+MCI_19.mat：ROI series of Subject No. 19 in the MCI group
+
+NC_23.mat：ROI series of Subject No. 23in the NC group

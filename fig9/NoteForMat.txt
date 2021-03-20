@@ -1,0 +1,14 @@
+﻿
+CorrMeanImf_MCI.mat ：IMF connectivity on an MCI group mean level
+
+CorrMeanImf_NC.mat ：IMF connectivity on an NC group mean level
+ 
+MCI_mean_pearson.mat ：Pearson connectivity on an MCI group mean level 
+
+NC_mean_pearson.mat ：Pearson connectivity on an NC group mean level 
+
+MCI_NC_Tpearson.mat ：MCI(mean)-NC(mean) when connectiviey is Perason correlation
+
+MCI_NC_index_Q_1.mat： the values of IMF MCI(mean)-NC(mean)
+
+LOC1_0.36.mat ：the layer for IMF when MCI(mean)>0 & NC(mean)>0，& MCI(mean)-NC(mean)>0.36

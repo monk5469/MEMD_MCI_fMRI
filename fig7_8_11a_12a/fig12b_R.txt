@@ -1,0 +1,17 @@
+library(ggplot2)
+library(ggcorrplot)
+library(ggthemes)
+library(circlize)
+data <- read.table("MCI_NC_index_0.36.txt",header = T,row.names = 1)#读取时间序列
+data1 <-data.matrix(data)
+
+gene_cor <- reshape2::melt(data1)
+gene_cor <- subset(gene_cor, value != 20)  #去除0值的相关性（0值处填写的20，方便去除）
+windows(1)
+chordDiagram(gene_cor,
+             annotationTrack = c('grid', 'name'), #绘制外周圆弧区，显示名称和刻度轴
+             col ="red" , #根据相关性大小展示连线的颜色范围
+             annotationTrackHeight = c(0.05, 0.05), #名称离圆弧的距离，以及圆弧的宽度
+             transparency =0.5
+             
+)
